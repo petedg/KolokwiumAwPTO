@@ -13,8 +13,7 @@ import org.junit.runners.Parameterized.Parameters;
 @RunWith(Parameterized.class)
 public class TestCase {
 	
-	private final static INumberCalculator numberCalculator = new FizzBuzz();
-	private final static NumberPrinter numberPrinter = new NumberPrinter(numberCalculator, new ConsolePrinter());
+	private final static INumberCalculator numberCalculator = new FizzBuzz();	
 	private int parameter;
 	
 	public TestCase(int parameter)
